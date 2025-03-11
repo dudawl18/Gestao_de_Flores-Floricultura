@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.materiais-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #A2D3E0;
+}
+
+.formMateriais {
+    background-color: #e0f3f8;
+}
+
+.cardsMateriais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
